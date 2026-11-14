@@ -1,10 +1,11 @@
 # AUR - trueflasher-git
 
-Tracks `main` (`-git` package). A versioned `trueflasher` release package
-can be added after the first `vX.Y.Z` tag; it is the same PKGBUILD with
-`source=(...#tag=v$pkgver)` and no `pkgver()`.
+Live at https://aur.archlinux.org/packages/trueflasher-git (first published
+2026-11-14). Tracks `main` (`-git` package). A versioned `trueflasher`
+release package can be added after the first `vX.Y.Z` tag; it is the same
+PKGBUILD with `source=(...#tag=v$pkgver)` and no `pkgver()`.
 
-## Publish a new AUR repo (maintainer, one time)
+## Initial publish (done 2026-11-14, kept for record)
 
 ```bash
 git clone ssh://aur@aur.archlinux.org/trueflasher-git.git

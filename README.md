@@ -104,7 +104,7 @@ sudo dnf install ./trueflasher-1.0.0-1.x86_64.rpm
 chmod +x TrueFlasher-1.0.0-x86_64.AppImage
 sudo ./TrueFlasher-1.0.0-x86_64.AppImage
 
-# Arch (builds latest git)
+# Arch (builds latest git, live at https://aur.archlinux.org/packages/trueflasher-git)
 git clone https://aur.archlinux.org/trueflasher-git.git
 cd trueflasher-git && makepkg -si
 ```

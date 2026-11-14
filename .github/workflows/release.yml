@@ -69,8 +69,10 @@ jobs:
           /tmp/appimagetool --version || true
 
       - name: Upload release assets
-        uses: softprops/action-gh-release@v2
+        run: |
+          cp "bin/${{ matrix.rid }}/trueflasher" "dist/trueflasher-${{ matrix.rid }}"
+          ls -l dist/
+      - uses: softprops/action-gh-release@v2
         with:
           files: |
             dist/*
-            bin/${{ matrix.rid }}/trueflasher
